@@ -1,5 +1,5 @@
 def part1():
-    f = open('day_2_input.txt').readlines()
+    f = open('day_1_input.txt').readlines()
     highest_calories = 0
     current_calories = 0
     for i in range(len(f)):
@@ -12,7 +12,7 @@ def part1():
 
 
 def part2():
-    f = open('day_2_input.txt').readlines()
+    f = open('day_1_input.txt').readlines()
     current_calories = 0
     all_calories = []
     for i in range(len(f)):
